@@ -1,3 +1,6 @@
+'''
+Write a code, that will wait for the elements became clickable without Sleep function
+'''
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager

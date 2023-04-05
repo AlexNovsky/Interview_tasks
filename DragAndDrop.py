@@ -3,6 +3,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
+
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://jqueryui.com/droppable/')
 '''switching to frame with action items'''

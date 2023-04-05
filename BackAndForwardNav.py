@@ -1,3 +1,6 @@
+'''
+Write a code how you can navigate thru the web application with Selenuim webdriver
+'''
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager

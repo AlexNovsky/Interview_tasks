@@ -1,3 +1,6 @@
+'''
+How would you avoid usage of sleep function?
+'''
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager

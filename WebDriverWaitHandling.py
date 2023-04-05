@@ -12,7 +12,6 @@ wait = WebDriverWait(driver, 9)
 
 # wait.until(expected_conditions.title_is('HubSpot Login'))
 wait.until(expected_conditions.title_contains('HubSpot'))
-print(driver.title)
 
 email_id = wait.until(expected_conditions.presence_of_element_located((By.ID, 'username')))
 email_id.send_keys('abrakadabra.com')

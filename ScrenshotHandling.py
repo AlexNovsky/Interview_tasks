@@ -4,9 +4,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 '''making a screenshot of visible part of webpage'''
-# driver = webdriver.Chrome(ChromeDriverManager().install())
-# driver.get('https://www.suse.com')
-# driver.get_screenshot_as_file('suse.png')
+driver = webdriver.Chrome(ChromeDriverManager().install())
+driver.get('https://www.suse.com')
+driver.get_screenshot_as_file('suse.png')
 
 '''making screenshot of full webpage
 *** could be taken only in headless mode***'''
